@@ -202,7 +202,13 @@ typedef NS_OPTIONS(NSUInteger, QAPMMonitorType) {
 };
 ```
 ### 采样率
-可以通过`QAPMModelStableConfig`类设置的`- (void)getModelStable:(NSInteger)factor` 或 `- (void)getModelAll:(NSInteger)factor`方法设置采样率，如设置1就是100%，如设置 100就是 1%。<br>
+可以通过`QAPMModelStableConfig`类设置的
+```objc
+- (void)getModelStable:(NSInteger)factor
+// 或
+- (void)getModelAll:(NSInteger)factor
+```
+方法设置采样率，如设置1就是100%，如设置 100就是 1%。<p>
 
 所以建议区分开发环境和正式环境，开发环境为全量上报，线上环境为采样上报。<br>
 

@@ -233,7 +233,7 @@ typedef NS_OPTIONS(NSUInteger, QAPMMonitorType) {
 之后我们会重视起来APM稳定性相关数据，执行相应的值班制度；同样APM监控是可以用数据说明App稳定性的很好的指标，后期可能也是对于团队考核的一个重要因素点。<p>
 
 所以，App的性能日益被团队重视，选择一个合适的APM监控系统尤为重要！<p>
-[QAPM官网](https://cloud.tencent.com/product/qapm)<p>
+
 推荐学习框架：
 1. [MLeaksFinder](https://github.com/Tencent/MLeaksFinder)
 2. [KSCrash](https://github.com/kstenerud/KSCrash)
